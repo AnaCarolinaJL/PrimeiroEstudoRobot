@@ -1,0 +1,22 @@
+{
+  "name": "primeiroestudorobot",
+  "version": "1.0.0",
+  "description": "Primeiro projeto utilizando o Robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AnaCarolinaJL/PrimeiroEstudoRobot.git"
+  },
+  "keywords": [
+    "git123"
+  ],
+  "author": "Ana Carolina Justino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaCarolinaJL/PrimeiroEstudoRobot/issues"
+  },
+  "homepage": "https://github.com/AnaCarolinaJL/PrimeiroEstudoRobot#readme"
+}
