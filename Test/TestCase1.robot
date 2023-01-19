@@ -1,11 +1,8 @@
 *** Settings ***
 Documentation       This is my first Testcase
-Library             OperatingSystem
-
-*** Keywords ***
-
-*** Variables ***
+Resource            ../Resources/resources.robot
 
 *** Test Cases ***
 TEST
-    Log  This is a sample
+    [Tags]            demo          demo2
+    Log My Specific Username And Password   ${DICTIONARY}[username]         ${DICTIONARY}[password]

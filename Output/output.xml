@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.7 on win32)" generated="20230119 10:20:16.349" rpa="false" schemaversion="3">
+<suite id="s1" name="TestCase2" source="C:\Users\ANACAROLINAJUSTINOLO\Downloads\Estudo\PrimeiroEstudoRobot\Test\TestCase2.robot">
+<test id="s1-t1" name="TEST2" line="5">
+<kw name="Log My Specific Username And Password" library="resources">
+<arg>${DICTIONARY}[username]</arg>
+<arg>${DICTIONARY}[password]</arg>
+<msg timestamp="20230119 10:20:16.390" level="TRACE">Arguments: [ ${USERNAME}='testuser' | ${PASSWORD}='demo' ]</msg>
+<kw name="Log My Username" library="resources">
+<arg>${USERNAME}</arg>
+<msg timestamp="20230119 10:20:16.390" level="TRACE">Arguments: [ ${USERNAME}='testuser' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${USERNAME}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230119 10:20:16.390" level="TRACE">Arguments: [ 'testuser' ]</msg>
+<msg timestamp="20230119 10:20:16.390" level="INFO">testuser</msg>
+<msg timestamp="20230119 10:20:16.390" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230119 10:20:16.390" endtime="20230119 10:20:16.390"/>
+</kw>
+<msg timestamp="20230119 10:20:16.390" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230119 10:20:16.390" endtime="20230119 10:20:16.390"/>
+</kw>
+<kw name="Log My Password" library="resources">
+<arg>${PASSWORD}</arg>
+<msg timestamp="20230119 10:20:16.391" level="TRACE">Arguments: [ ${PASSWORD}='demo' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${PASSWORD}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230119 10:20:16.391" level="TRACE">Arguments: [ 'demo' ]</msg>
+<msg timestamp="20230119 10:20:16.391" level="INFO">demo</msg>
+<msg timestamp="20230119 10:20:16.391" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230119 10:20:16.391" endtime="20230119 10:20:16.391"/>
+</kw>
+<msg timestamp="20230119 10:20:16.391" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230119 10:20:16.390" endtime="20230119 10:20:16.391"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>This is the final video</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230119 10:20:16.391" level="TRACE">Arguments: [ 'This is the final video' ]</msg>
+<msg timestamp="20230119 10:20:16.391" level="INFO">This is the final video</msg>
+<msg timestamp="20230119 10:20:16.391" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230119 10:20:16.391" endtime="20230119 10:20:16.391"/>
+</kw>
+<msg timestamp="20230119 10:20:16.392" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230119 10:20:16.389" endtime="20230119 10:20:16.392"/>
+</kw>
+<tag>Demo</tag>
+<tag>demo2</tag>
+<status status="PASS" starttime="20230119 10:20:16.389" endtime="20230119 10:20:16.392"/>
+</test>
+<status status="PASS" starttime="20230119 10:20:16.351" endtime="20230119 10:20:16.393"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Demo</stat>
+<stat pass="1" fail="0" skip="0">demo2</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCase2">TestCase2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
